@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rxnfusion"
+version = "0.1.0"
+description = "Inference-only reaction language model utilities"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.5",
+  "transformers>=4.40",
+  "einops>=0.7",
+  "loguru",
+  "pyyaml",
+  "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[project.scripts]
+rxnfusion-embed = "rxnfusion.embedding:main"
+rxnfusion-predict = "rxnfusion.predict:main"
+rxnfusion-five-fold = "rxnfusion.five_fold:main"
+rxnfusion-tmap = "rxnfusion.tmap:main"

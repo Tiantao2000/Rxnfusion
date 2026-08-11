@@ -1,0 +1,9 @@
+task: reaction_50k_classification
+model_kind: hierarchical
+vocab_size: 2362
+max_length: 768
+reactants_column: reactants
+products_column: products
+reagents_column: reagents
+label_columns: [rc_1, rc_2, rc_3]
+label_sizes: {rc_1: 9, rc_2: 28, rc_3: 50}

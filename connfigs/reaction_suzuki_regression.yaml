@@ -1,0 +1,10 @@
+task: reaction_suzuki_regression
+model_kind: reaction
+vocab_size: 2362
+num_labels: 1
+problem_type: regression
+max_length: 768
+reactants_column: reactants
+products_column: products
+reagents_column: reagents
+label_column: yields

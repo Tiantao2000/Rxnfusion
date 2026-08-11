@@ -1,0 +1,11 @@
+task: kcat_cold_enzyme
+model_kind: kcat
+vocab_size: 2390
+num_labels: 1
+problem_type: regression
+max_length: 1000
+reaction_column: reaction
+sequence_column: sequence
+label_column: log10kcat_max
+split_column: split
+split_value: test
