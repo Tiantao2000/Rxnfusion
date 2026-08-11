@@ -133,17 +133,6 @@ bash rxnfusion/tmap/run_uspto50k_rxnlm_tmap.sh
 
 Because the complete five-fold checkpoints are large, this repository provides only the optimal single-fold checkpoint for each downstream task to reduce download, transfer, and storage costs. This is the fold with the highest primary metric among the existing five-fold results, rather than the complete set of five-fold checkpoints. Classification tasks were selected by accuracy, and regression tasks were selected by `R²`. These optimal single-fold checkpoints are intended for streamlined inference; all five folds should still be used to report five-fold means in the paper.
 
-| Task | Configuration file | Retained fold |
-| --- | --- | ---: |
-| Schneider 50K classification | `reaction_50k_classification.yaml` | 5 |
-| TPL classification | `reaction_tpl_classification.yaml` | 5 |
-| Dreher yield prediction | `reaction_dreher_regression.yaml` | 2 |
-| Suzuki yield prediction | `reaction_suzuki_regression.yaml` | 3 |
-| USPTO above yield prediction | `reaction_uspto_above_regression.yaml` | 1 |
-| USPTO below yield prediction | `reaction_uspto_below_regression.yaml` | 1 |
-| BioReact warm | `kcat_warm.yaml` | 4 |
-| BioReact cold reaction | `kcat_cold_reaction.yaml` | 1 |
-| BioReact cold enzyme | `kcat_cold_enzyme.yaml` | 3 |
 
 ### Organic reaction tasks
 
