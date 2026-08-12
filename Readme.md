@@ -52,7 +52,7 @@ If you only need to generate reaction embeddings or create a TMAP, you do not ne
 
 ```bash
 mkdir -p ckpt/embedding
-gdown --fuzzy "xxx3" -O ckpt/embedding/model.ckpt
+gdown --fuzzy "https://drive.google.com/file/d/1O5ZzXdqUHiW1Q9lJRNiNqLjCErPNSpaB/view?usp=drive_link" -O ckpt/embedding/model.ckpt
 ```
 
 The repository directly provides `dataset/uspto50k.csv`, so the complete data archive is not required to create the example TMAP. To create a TMAP with other data, the input CSV must contain `reaction` and `class` columns.
@@ -62,8 +62,8 @@ The repository directly provides `dataset/uspto50k.csv`, so the complete data ar
 Run the following commands from the repository root:
 
 ```bash
-gdown --fuzzy "xxx1" -O rxnfusion_ckpt.tar.gz
-gdown --fuzzy "xxx2" -O rxnfusion_dataset.tar.gz
+gdown --fuzzy "https://drive.google.com/file/d/1xfs2ZQ5XGVuwz9Mf228YjYt2UVsoSOgu/view?usp=drive_link" -O rxnfusion_ckpt.tar.gz
+gdown --fuzzy "https://drive.google.com/file/d/1S-9UzgFaWiC2hMDyVRQd0_iWMoWtH5qJ/view?usp=drive_link" -O rxnfusion_dataset.tar.gz
 
 tar --no-same-owner -xzf rxnfusion_ckpt.tar.gz
 tar --no-same-owner -xzf rxnfusion_dataset.tar.gz
