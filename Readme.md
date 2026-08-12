@@ -34,9 +34,9 @@ Three files are available from Google Drive:
 
 | File | Download link | Purpose |
 | --- | --- | --- |
-| `rxnfusion_ckpt.tar.gz` | [Google Drive](xxx1) | The optimal single-fold checkpoint for each downstream task and the pretrained embedding checkpoint |
-| `rxnfusion_dataset.tar.gz` | [Google Drive](xxx2) | Test sets for all downstream tasks |
-| `model.ckpt` | [Google Drive](xxx3) | Standalone download for embedding generation or TMAP visualization only |
+| `rxnfusion_ckpt.tar.gz` | [Google Drive](https://drive.google.com/file/d/1xfs2ZQ5XGVuwz9Mf228YjYt2UVsoSOgu/view?usp=drive_link) | The optimal single-fold checkpoint for each downstream task and the pretrained embedding checkpoint |
+| `rxnfusion_dataset.tar.gz` | [Google Drive](https://drive.google.com/file/d/1S-9UzgFaWiC2hMDyVRQd0_iWMoWtH5qJ/view?usp=drive_link) | Test sets for all downstream tasks |
+| `model.ckpt` | [Google Drive](https://drive.google.com/file/d/1O5ZzXdqUHiW1Q9lJRNiNqLjCErPNSpaB/view?usp=drive_link) | Standalone download for embedding generation or TMAP visualization only |
 
 Files can be downloaded through a browser or from the command line after installing `gdown`:
 
