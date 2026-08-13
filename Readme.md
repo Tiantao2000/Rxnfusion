@@ -35,7 +35,7 @@ Three files are available from Google Drive:
 | File | Download link | Purpose |
 | --- | --- | --- |
 | `rxnfusion_ckpt.tar.gz` | [Google Drive](https://drive.google.com/file/d/1xfs2ZQ5XGVuwz9Mf228YjYt2UVsoSOgu/view?usp=drive_link) | The optimal single-fold checkpoint for each downstream task and the pretrained embedding checkpoint |
-| `rxnfusion_dataset.tar.gz` | [Google Drive](https://drive.google.com/file/d/1S-9UzgFaWiC2hMDyVRQd0_iWMoWtH5qJ/view?usp=drive_link) | Test sets for all downstream tasks |
+| `rxnfusion_dataset.tar.gz` | [Google Drive](https://drive.google.com/file/d/1GG3o-cggck5WlsNqT-so7I8P3KX3U_a2/view?usp=drive_link) | Test sets for all downstream tasks |
 | `model.ckpt` | [Google Drive](https://drive.google.com/file/d/1O5ZzXdqUHiW1Q9lJRNiNqLjCErPNSpaB/view?usp=drive_link) | Standalone download for embedding generation or TMAP visualization only |
 
 Files can be downloaded through a browser or from the command line after installing `gdown`:
@@ -63,7 +63,7 @@ Run the following commands from the repository root:
 
 ```bash
 gdown --fuzzy "https://drive.google.com/file/d/1xfs2ZQ5XGVuwz9Mf228YjYt2UVsoSOgu/view?usp=drive_link" -O rxnfusion_ckpt.tar.gz
-gdown --fuzzy "https://drive.google.com/file/d/1S-9UzgFaWiC2hMDyVRQd0_iWMoWtH5qJ/view?usp=drive_link" -O rxnfusion_dataset.tar.gz
+gdown --fuzzy "https://drive.google.com/file/d/1GG3o-cggck5WlsNqT-so7I8P3KX3U_a2/view?usp=drive_link" -O rxnfusion_dataset.tar.gz
 
 tar --no-same-owner -xzf rxnfusion_ckpt.tar.gz
 tar --no-same-owner -xzf rxnfusion_dataset.tar.gz
