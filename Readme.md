@@ -1,4 +1,4 @@
-<img width="432" height="17" alt="image" src="https://github.com/user-attachments/assets/6db76016-e9ce-42c5-afd3-4a832fae4c4f" /># Rxnfusion
+# Rxnfusion
 
 Rxnfusion is a reaction representation model for organic synthesis and enzyme catalysis. This repository provides streamlined inference code for generating reaction embeddings, creating TMAP visualizations, and running prediction tasks for organic reactions and `kcat` prediction.
 
