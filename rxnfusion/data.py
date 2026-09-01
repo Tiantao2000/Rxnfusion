@@ -5,7 +5,7 @@ import math
 from pathlib import Path
 from typing import Any, Iterable
 
-
+## For data processing
 def read_rows(path: str | Path) -> list[dict[str, str]]:
     path = Path(path)
     if path.suffix.lower() != ".csv":
