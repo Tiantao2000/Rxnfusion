@@ -68,7 +68,7 @@ def main() -> int:
     parser.add_argument("--reaction-column", default="reaction")
     parser.add_argument("--label-column", default="class")
     parser.add_argument("--limit", type=int)
-    parser.add_argument("--knn", type=int, default=10)
+    parser.add_argument("--knn", type=int, default=20)
     parser.add_argument("--annoy-trees", type=int, default=10)
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--max-length", type=int, default=1000)
